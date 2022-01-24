@@ -18,4 +18,8 @@
 # 20
 
 p "Enter a number:"
-
+input = gets.chomp
+number = 1
+1.upto(10) do |number|
+  p number * input.to_i
+end
